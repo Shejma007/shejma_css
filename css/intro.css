@@ -1,0 +1,40 @@
+/*selector*/
+/*universal selector*/
+
+*{
+background-color: rgb(255, 255, 255);
+color: aquamarine;
+}
+/*tag selector*/
+h1{
+    background-color: rgb(255, 255, 255);
+}
+/*id selector*/
+#p1{
+background-color: rgb(255, 255, 255);
+font-size: 32px;
+}
+/*class selector*/
+.para{
+background-color: rgb(255, 255, 255);
+font-size: 25;
+}
+/*descending selector*/
+div p{
+    background-color: aliceblue;
+    color: aqua;
+    font-size: 22;
+}
+/* child selector*/
+
+div>h1{
+    background-color: rgb(154, 208, 255);
+    color: aqua;
+    font-size: 15;
+}
+
+/* group selector */
+h1,h2,button{
+    background:color(a98-rgb red green blue);
+    color: rgb(163, 118, 60);
+}
