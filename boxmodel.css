@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: darksalmon;
+}
+
+p{
+    background-color: indianred;
+}
+
+#p1{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 50px;
+    padding-left: 50px;
+}
+
+#p2{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 50px;
+    margin: 50px;
+}
+
+#p3{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 50px;
+    padding-left: 50px;
+}
+
+#p4{
+    width: 200px;
+    border: 20px solid black;
+    margin: 50px;
+    padding: 50px;
+    outline: 7px solid black;
+    outline-offset: 5px;
+}

@@ -1,0 +1,19 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+p{
+    background-color: white;
+}
+
+#p1{
+    width: 300px;
+    border: 9px solid blue;
+    margin: auto;
+    margin-top: 200px;
+    padding: 50px;
+    outline: 7px solid red;
+    outline-offset: 5px;
+}
