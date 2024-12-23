@@ -1,0 +1,89 @@
+/*font style and family*/
+#p1 {
+    font-family: Arial, Helvetica, sans-serif,serif;
+    /*font-style:normal; */
+    /*font-style:oblique; */
+    font-style: italic;
+}
+
+/*font variant*/
+#p2 {
+    font-variant: small-caps;
+    /*font-variant: normal;*/
+}
+
+/*font weight*/
+
+#p3 {
+    font-weight: bold;
+    /*font-weight: 900; */
+    /* font-weight: bolder*/
+}
+
+#p4 {
+    font-size: 4vw;
+
+    /* font-size: 50px;*/
+    /* font-size: 150%;*/
+    /* font-size: large;*/
+    /* font-size: small;*/
+    /* font-size: 1cm;*/
+}
+
+/*shorthand*/
+
+#p5 {
+    font: bold italic small-caps 10vw georgian;
+    width: 150px;
+}
+
+#p6 {
+    font-family: "Playwrite CO Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#p7 {
+    color: aqua;
+    direction: rtl;
+}
+  
+/*text indent*/
+
+#p8 {
+    text-indent: 20px;
+    /*text-indent: scm*/
+}
+
+/*text spacing*/
+
+#p9 {
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    /* white-space: pre; */
+}
+
+/* text decoration*/
+
+#p10 {
+    text-decoration: underline;
+    /* text-decoration: line-through;*/
+    /* text-decoration: overline;*/
+
+}
+
+/*text transform*/
+
+#p11 {
+    text-transform: capitalize;
+    /* text-transform: lowercase*/
+    /* text-transform: uppercase*/
+    /* text-transform: none*/
+}
+
+/*text shadow*/
+
+#p12 {
+    font-size: 70px;
+    text-shadow: 5px 4px 7px red;
+}
