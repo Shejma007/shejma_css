@@ -1,0 +1,39 @@
+
+a:link {
+    color: hotpink;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+a:hover {
+    color:red;
+    font-size: 25px;
+    background-color: aquamarine;
+}
+
+a:active {
+    color: cyan;
+}
+
+#a1:link {
+    color: hotpink;
+    text-decoration: none;
+}
+
+#a1:visited {
+    color: aquamarine;
+}
+
+#a1:hover {
+   color: aqua;
+   font-size: 16px;
+   text-decoration: underline;
+   background-color: white;
+    
+}
+
+#a1:active {
+    color: cyan;
+}
