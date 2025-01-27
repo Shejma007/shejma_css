@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.container {
+    border: 20px solid grey;
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+}
+
+.header {
+    font-size: 35px;
+    color: darkblue;
+    text-transform: capitalize;
+}
+
+.data {
+    color: lightblue;
+    font-weight: bold;
+    line-height: 1.6;
+
+}
+
+.content {
+    line-height: 1.6;
+
+}
+
+.vertical-line {
+    border-left: 2px solid black;
+    height: 100;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.horizontal-line {
+    border-top:  2px solid black;
+    margin: 20px 0;
+}

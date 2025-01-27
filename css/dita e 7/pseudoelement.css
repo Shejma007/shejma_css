@@ -1,0 +1,19 @@
+#p1::before {
+    content:" shkolla - " ;
+    color: red;
+}
+
+#p2::after {
+    content:" - prizren ";
+    color: blueviolet;
+}
+
+#p3::first-line {
+    color: coral;
+    font-variant: small-caps;
+}
+
+p::selection {
+    color: aqua;
+    background-color: bisque;
+}

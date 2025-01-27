@@ -1,0 +1,48 @@
+#ul1 {
+    list-style-type: circle;
+    list-style-position: outside;
+    width: 100px;
+}
+
+#ul2 {
+    list-style-position: inside;
+    width: 100px;
+    /*text-align: center;*/
+}
+
+#ul3 {
+    list-style-image: url(daisy.png);
+    list-style-position: inside;
+}
+
+#ol1 {
+    list-style-type: none;
+}
+
+#ol2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ol3 {
+    list-style: inside upper-roman;
+    width: 100px;
+}
+#ul4 {
+    background: #aa3355;
+    padding: 20px;
+}
+
+#ul4 li {
+    background: #5533ff;
+    color: white;
+    margin: 10px;
+}
+
+#ol4 li:hover {
+    background: aquamarine;
+    color: aqua;
+    font-size: 20px;
+ 
+}
