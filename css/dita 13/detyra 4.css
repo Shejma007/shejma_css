@@ -1,0 +1,138 @@
+#divk {
+    width: 500px;
+    height: 700px;
+    border: 3px dotted aqua;
+    padding: 30px;
+    
+    
+
+}
+
+#p1 {
+    display: inline ;
+    color: blueviolet;
+    font-size: 20px;
+}
+#p2 {
+    display: inline;
+}
+
+#input1{
+    width: 400px;
+}
+
+#input2{
+    width: 400px;
+}
+
+#input3 {
+    width: 100px;
+}
+
+#input4 {
+    width: 50px;
+}
+
+#input5 {
+    width: 100px;
+}
+#lab3 {
+   float:left ;
+    margin-left: 10px;
+    
+}
+
+#lab4 {
+    float:left ;
+    margin-left: 10px;
+
+}
+
+#lab5 {
+   float:left ;
+    margin-left: 10px;
+
+}
+
+#p3 {
+    display: inline ;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+#p4 {
+    display: inline;
+}
+
+#div4 {
+    float: left;
+    margin: right;
+   
+}
+
+#button1 {
+ color: white;
+ background-color: palevioletred;
+}
+
+#form1{
+    height: 250px;
+
+}
+
+#select1 {
+    width: 200px;
+}
+
+#select2 {
+    width: 200px;
+}
+
+#select8 {
+    display: block;
+}
+
+#select3 {
+    float: left;
+    width: 70px;
+
+}
+
+#select4 {
+    float: left;
+    width: 70px;
+}
+
+#label6{
+    float: left;
+}
+
+#label7 {
+    float: left;
+}
+
+#label8 {
+    float: left;
+}
+
+#label9 {
+    float: left;
+}
+
+#label10 {
+    float: left;
+}
+
+#label11 {
+    float: left;
+}
+#div3 {
+    float: left;
+}
+
+
+
+#div5 {
+    width: 300px;
+    height: 20px;
+}
