@@ -1,0 +1,87 @@
+#div1 {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    color: bisque;
+    transition: 1.3s;
+}
+
+#div1:hover{
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: beige;
+    padding: 50px;
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    transition: 10s, width 3s, height 2s, background 1s;
+    color: bisque;
+    transition-delay: 1s;
+}
+
+#div2:hover{
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: beige;
+    padding: 50px;
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    transition: 10s, width 3s, height 2s, background 1s;
+    color: bisque;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+#div3:hover{
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: beige;
+ 
+}
+
+#div4 {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    transition: 10s, width 3s, height 2s, background 1s;
+    color: bisque;
+    transition-property: width, height, color;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
+#div4:hover{
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: beige;
+ 
+}
+
+#div5 {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    transition: width 4s linear 1s;
+    color: bisque;
+   
+}
+
+#div5:hover{
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: beige;
+ 
+}
