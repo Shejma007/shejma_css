@@ -41,3 +41,31 @@
     justify-content: center;
     align-items: center;
 }
+
+.p1 {
+    font-size: 30px;
+    background-color: blue;
+    width: 100px;
+
+margin: 10px;
+text-align: center;
+line-height: 100px;
+}
+
+#div6 {
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: azure;
+}
+
+.p2 {
+    font-size: 30px;
+    background-color: blue;
+    width: 100px;
+
+margin: 10px;
+text-align: center;
+line-height: 100px;
+}
