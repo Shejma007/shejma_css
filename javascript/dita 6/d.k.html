@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = prompt("Shkruaj pikët që i ke marrë në provim:"); 
+        a = Number(a); 
+         
+        if (a < 50) 
+        { 
+            document.write("Nota 1"); 
+        } 
+        else if (a >= 50 && a <= 59) 
+        { 
+            document.write("Nota 2"); 
+        } 
+        else if (a >= 60 && a <= 69) 
+        { 
+            document.write("Nota 3"); 
+
+        } 
+        else if (a >= 70 && a <= 79) 
+        { 
+            document.write("Nota 4"); 
+        } 
+        else if (a > 79) 
+        { 
+            document.write("Nota 5");
+        } 
+        else
+        { 
+            document.write("Ju lutem shkruani një numër të vlefshëm!"); 
+        }
+    </script>
+</body>
+</html>
