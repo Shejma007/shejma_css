@@ -18,5 +18,35 @@
     document.getElementById('p1').innerHTML=para;
       
     </script>
+
+     <p id='p2'style="color:red"></p>
+    <script>
+        var vargu = ['Ferizaj' , 'Gjakove' , 'Malisheve' , 'Pristine' , 'Prizren' , 'Rahovec'];
+        var y= vargu.length;
+        var z = '';
+        var a = vargu.sort();
+          for(x=0; x<y; x++)
+    {
+        z+=vargu[x]+'<br>';
+        
+    }
+    document.getElementById('p2').innerHTML = z;
+
+    </script>
+
+        <p id='p3'style="color:red"></p>
+    <script>
+        var vargu = ['Ferizaj' , 'Gjakove' , 'Malisheve' , 'Pristine' , 'Prizren' , 'Rahovec'];
+        var y= vargu.length;
+        var z = '';
+        var a = vargu.sort();
+          for(x=0; x<y; x++)
+    {
+        z+=vargu[x]+" eshte "+(x+1)+'<br>';
+        
+    }
+    document.getElementById('p3').innerHTML = z;
+
+    </script>
 </body>
 </html>
