@@ -48,5 +48,33 @@
     document.getElementById('p3').innerHTML = z;
 
     </script>
+
+<p id='p4' style="color:blue"></p> 
+<script>
+    var vargu = ['Ferizaj' , 'Gjakove' , 'Malisheve' , 'Pristine' , 'Prizren' , 'Rahovec'];
+    var y = vargu.length;
+    var z = '';
+    var a = vargu.sort().reverse();
+
+    for (x = 0; x < y; x++) {
+        z += vargu[x] + " është " + (y - x) + '<br>';
+    }
+
+    document.getElementById('p4').innerHTML = z;
+</script>
+
+
+<p id="p5" style="color:green"></p>
+
+<script>
+    var z = '';
+    for (var x = 1; x <= 10; x++) 
+    {
+        z += x + " * 5 = " + (x * 5) + "<br>";
+    }
+
+    document.getElementById("p5").innerHTML = z;
+</script>
+
 </body>
 </html>
