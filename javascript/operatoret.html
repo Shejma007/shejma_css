@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Operatoret</title>
+</head>
+<body>
+	<p id="p1">Shkolla</p>
+	<p id="p2">Shkolla</p>
+	<!--Operatoret Percaktues (Assignment)-->
+	<h3>Operatoret Percaktues</h3>
+	<script language="javascript" type="text/javascript">
+		var name = 'Digjitale';
+		document.getElementById('p2').innerHTML = name;
+		var x = 10;
+		x += 5;  //x=x+5
+		document.write(x +'<br>');
+		var y = 10;
+		y *= 10; //y=y*10
+		document.write(y+'<br>');
+		var z = 20;
+		 z %= 3;  // 20 / 3 = 6
+	              // 18
+	              //  2 modulo(mbetje)
+		 document.write(z+'<br>');
+	</script>
+	<br>
+	<p>Operatoret Aritmetik</p>
+	<!--Operatoret aritmetik-->
+	<script language="javascript" type="text/javascript">
+		var x = '20';
+		var y = '7';
+		var z = x + y;
+		document.write(z+"<br>");//i bashkon ne kete rast
+		var b = x * y;//i shumezon ne kete rast
+		document.write(b+"<br>");
+		
+		var a = x % y; //20/7=2 
+					   //14	
+					   //mbetja eshte 6
+		document.write(a+"<br>");
+	    y++;  //increment i shtohet nje y+1
+	    document.write(y+"<br>"); 
+	    y--;  //decrement i zbritet nje y-1
+	    document.write(y);
+	</script>
+	<p>Operatoret String</p>
+	<script>
+		var firstName="Kebir ";
+		var lastName="Cesko";
+		var fullName=firstName+lastName;
+		document.write(fullName+"<br>");
+		//Si behet space ne mes te fjalise?
+	</script>  
+    <script>
+        var a ='20';
+        var b =20;
+        document.write((a==b)+'<br>');
+        document.write((a!=b)+'<br>');
+        document.write((a===b)+'<br>');
+        document.write((a!==b)+'<br>');
+        document.write((a>=b)+'<br>');
+        document.write((a<=b)+'<br>');
+        document.write((a<b)+'<br>');
+        document.write((a>b)+'<br>');
+    </script> 
+    <br>
+    <p>operatoret logjik</p>
+    <script>
+        var  a ='3'
+        var x =10
+        var z= 10;
+        document.write((x < 20 && y >1)+'<br>'+(x < 20 &&  y < 1 )+ '<br>');
+        document.write((x < 20 || y >1)+'<br>'+(x < 20 ||  y < 1 )+ '<br>');
+        document.write(!(x === y)+'<br>'+!(x > y ));
+
+    </script>
