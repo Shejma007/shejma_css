@@ -16,6 +16,8 @@
         }
         document.write(Mosha());
     </script>
+    <br>
+    <br>
 
     <script>
       
@@ -31,5 +33,53 @@
             document.write("Ju keni te drejte te votoni");
         }
     </script>
+        <br>
+        <br>
+
+    <script>
+        function shumezimi() {
+            var numri = prompt("Shkruani nje numer:");
+            numri = Number(numri);
+            var rezultatiFinal="";
+
+            for (var i = 1; i <= 10; i++) {
+                var shuma=numri*i;
+                rezultatiFinal += "Shumezimi i numrit" + numri + "me" + i + "eshte i barabarte me" + shuma + "<br>";
+            }
+            return rezultatiFinal;
+        }
+
+        document.write(shumezimi());
+    </script>
+    <br>
+    <br>
+    <script>
+        function gjatesia(teksti) {
+            if (teksti.length > 5) {
+                return "YOUR STRING IS MORE THAN 5 CHARACTERS LENGTH";
+            } else {
+                return "YOUR STRING IS LESS THAN 5 CHARACTERS LENGTH";
+            }
+        }
+        var input = prompt("Shkruani nje tekst:");
+        document.write(gjatesia(input));
+    </script>
+    <br>
+    <br>
+    <script>
+        function faktorieli(numri) {
+            var rezultati1 = 1;
+
+            for (var i = 1; i <= numri; i++) {
+               rezultati1 *= i;
+            }
+            return rezultati1;
+        }
+
+        var number = prompt("Shkruani nje nr per faktorielin:");
+        number = Number(number);
+
+        document.write("Faktorieli i numrit" + number + "eshte" + faktorieli(number));
+            </script>
 </body>
 </html>
