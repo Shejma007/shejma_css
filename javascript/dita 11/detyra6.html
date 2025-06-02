@@ -29,16 +29,64 @@
         document.write(temperatura1(50))
 
     </script>
+    <br>
+    <br>
+
 
             <script>
-        function km(F)
+        function kilometra(km)
         {
-            var C=(F-32)*5/9
-            return C
+            var m=km*1000
+            return m
         }
 
-        document.write(temperatura1(50))
+        document.write(kilometra(5))
 
+    </script>
+
+    <br>
+    <br>
+
+      <script>
+        function numriMeIMadh(a, b, c) {
+            var max;
+            if (a >= b && a >= c) {
+                max = a;
+            } else if (b >= a && b >= c) {
+                max = b;
+            } else {
+                max = c;
+            }
+            return max;
+        }
+
+        document.write(numriMeIMadh(43, 56, 21))
+
+    </script>
+
+        <br>
+        <br>
+
+    <script>
+        function mesatarja(p1, p2, p3, p4, p5)
+        {
+        var rezultati = (p1 + p2 + p3 + p4 + p5) / 5;
+        return rezultati;
+        }
+
+        document.write(mesatarja(1, 2, 3, 4, 5))
+    </script>
+
+    <br>
+    <br>
+
+    <script>
+        function konkatino(str1, str2, str3) {
+        var rezultati = str1 + str2 + str3;
+        return rezultati;
+    }
+
+    document.write(konkatino('Shkolla', 'Digjitale', 'Prizren'))
     </script>
 </body>
 </html>
