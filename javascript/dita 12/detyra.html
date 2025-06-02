@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Mosha() {
+            var mosha = prompt("Shkruani moshen");
+            var dite = Number(mosha) * 365;
+
+            return dite;
+
+        }
+        document.write(Mosha());
+    </script>
+
+    <script>
+      
+        var personi = {
+                            emri:'Shejma',
+							mbiemri:'Mazllami',
+							mosha: 17
+        };
+
+        if (personi.mosha < 18) {
+            document.write("Ju nuk keni te drejte te votoni");
+        } else {
+            document.write("Ju keni te drejte te votoni");
+        }
+    </script>
+</body>
+</html>
