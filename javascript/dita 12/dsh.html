@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">hedingu 1</h1>
+    <script>
+         document.getElementById('h1').style.color='black';
+    </script>
+    <button onclick="ndryshoNgjyren()">ndrysho ngjyren</button>
+    <button onclick="ktheNgjyren()">kthe ngjyren</button>
+   <script>
+    function ndryshoNgjyren()
+   {
+    document.getElementById("h1").style.color="red";
+   }
+   function ktheNgjyren()
+   {
+    document.getElementById("h1").style.color="black";
+   }
+   </script>
+   
+<br>
+<br>
+
+
+   <button onclick="background1()">blue</button>
+   <button onclick="background2()">yellow</button>
+   <button onclick="background3()">green</button>
+
+   <script>
+    function background1()
+        {
+            document.body.style.backgroundColor="blue";
+        }
+    
+    function background2()
+        {
+            document.body.style.backgroundColor="yellow";
+        }
+
+    function background3()
+        {
+            document.body.style.backgroundColor="green";
+        }
+   </script>
+
+
+<br>
+<br>
+
+   <a id="linku" href="https://www.google.com">linku</a>
+   <br>
+   <br>
+   <button onclick="ndryshoLinkun()">ndrysho linkun</button>
+
+
+
+   <script>
+    function ndryshoLinkun()
+    {
+        document.getElementById("linku").href="https://www.youtube.com";
+    }
+   </script>
+
+<br>
+<br>
+
+   <button onclick="data()">data e sotme</button>
+   <p id="Data"></p>
+
+   <script>
+        function data()
+        {
+            var sot = new Date();
+            var dataFormatuar = sot.toLocaleDateString();
+            document.getElementById("Data").innerText="Data e sotme eshte: " + dataFormatuar;
+        }
+   </script>
+</body>
+</html>
