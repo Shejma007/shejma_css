@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id='para'>teksti 1</p>
+    <p id='para1'></p>
+
+    <button onclick="shtoFjali()">Shfaq tekstin + URIME</button>
+
+    <script>
+        function shtoFjali()
+        {
+            var tekstipara = document.getElementById('para').innerText;
+            document.getElementById('para2').innerText = tekstipara + "URIME";
+        }
+        
+    </script>
+
+    <br>
+    <br>
+
+    <h1 id="h1">hedingu1</h1>
+
+    <script>
+        document.getElementById('h1').style.color='black';
+    </script>
+
+    <button onclick="ndryshoNgjyren()">ndrysho ngjyren</button>
+    <button onclick="ndryshoMadhesine()">ndryshoMadhesine</button>
+    
+   <script>
+    function ndryshoNgjyren()
+
+    {
+    document.getElementById("h1").style.color="blue";
+   }
+
+   {
+    document.getElementById("h1").style.fontSize="45px"
+   }
+   </script>
+    <br>
+    <br>
+
+
+   <button onclick="background1()">blue</button>
+   <button onclick="background2()">white</button>
+
+   <script>
+    function background1()
+        {
+            document.body.style.backgroundColor="blue";
+        }
+    
+    function background2()
+        {
+            document.body.style.backgroundColor="white";
+        }
+</script>
+<br>
+<br>
+
+<p id="p1">teksti 2</p>
+
+<button onclick="ngjyraDhemadhesia()">ngjyraDhemadhesia</button>
+
+    <script>
+        function ngjyraDhemadhesia()
+        {
+           var teksti= document.getElementById('p1');
+           teksti.style.color="green";
+           teksti.style.fontSize="30px";
+
+            
+        }
+        
+    </script>
+
+</body>
+</html>
