@@ -25,9 +25,6 @@
 
     <h1 id="h1">hedingu1</h1>
 
-    <script>
-        document.getElementById('h1').style.color='black';
-    </script>
 
     <button onclick="ndryshoNgjyren()">ndrysho ngjyren</button>
     <button onclick="ndryshoMadhesine()">ndryshoMadhesine</button>
@@ -39,6 +36,7 @@
     document.getElementById("h1").style.color="blue";
    }
 
+   function ndryshoMadhesine()
    {
     document.getElementById("h1").style.fontSize="45px"
    }
@@ -79,6 +77,41 @@
         }
         
     </script>
+
+    <br>
+    <br>
+
+    <p id="title" onclick="blue()" ondblclick="green()">kliko nje here per blue ose dy here shpejt per green.</p>
+
+    <script>
+        function blue()
+        {
+            document.getElementById("title").style.color="blue";
+
+        }
+
+        function green()
+        {
+            document.getElementById("title").style.color="green";
+            
+        }
+    </script>
+    <br>
+    <br>
+
+   <body onclick="mausi()">
+
+    <h1>kliko kudo</h1>
+    <p>tekst</p>
+    <button>button</button>
+    
+    <script>
+        function mausi()
+        {
+            alert("Ju keni shtypur mausin");
+        }
+    </script>
+   </body>
 
 </body>
 </html>
