@@ -68,5 +68,57 @@
             }
         </script>
 
+        <p id="para1">Shkolla</p>
+        <button onclick='fshije()'>Fshije</button>
+        <script>
+            function fshije()
+
+            {
+                var x = document.getElementById('para1');
+                x.remove();
+            
+            }
+        </script>
+        <br>
+        <br>
+
+        <button onclick='fshiElement()'>Fshije1</button>
+        <script>
+            function fshiElement()
+            {
+                var x = document.getElementById('div1');
+                x.removeChild (x.childNodes[0]);
+            }
+        </script>
+
+
+        <br>
+        <br>
+
+        <button onclick='text3()'>Shto vlere</button>
+        <button onclick='fshiElement1()'>zvogelo vlere</button>
+        <p id="p3">1</p>
+
+        
+
+          <script>
+            var x = 0
+            function text3()
+            {
+                x ++
+                 document.getElementById('p3').innerHTML=x;
+
+            }
+
+            function fshiElement1()
+            {
+                x--
+                 document.getElementById('p3').innerHTML=x;
+                
+            }
+        </script>
+
+
+        
 </body>
 </html>
